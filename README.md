@@ -1,3 +1,7 @@
+# Urdu to Roman Urdu Neural Machine Translation
+
+This repository contains implementations of neural machine translation models for converting Urdu text to Roman Urdu (transliteration). The project includes both attention-based and non-attention-based approaches using BiLSTM and xLSTM architectures.
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -203,12 +207,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Dataset**: Urdu Ghazals from Rekhta.org
 - **Poets**: All the legendary Urdu poets whose work made this project possible
 - **Libraries**: PyTorch, SentencePiece, Streamlit, and the open-source community
-
-## 📞 Contact
-
-For questions or collaboration opportunities, please reach out:
-- **Email**: your.email@example.com
-- **GitHub**: [@yourusername](https://github.com/yourusername)
 
 ---
 
