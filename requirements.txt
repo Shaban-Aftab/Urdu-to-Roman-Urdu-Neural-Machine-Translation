@@ -1,15 +1,16 @@
-# Streamlit app framework
-streamlit==1.28.0
+# Core ML and Deep Learning (CPU-only for deployment)
+torch>=2.0.0,<2.2.0
+numpy>=1.21.0,<1.25.0
 
-# Tokenizer
-sentencepiece==0.1.99
+# Web Interface
+streamlit>=1.28.0
 
-# Torch (PyTorch) - supports Python 3.13
-torch==2.5.1
-
-# Numerical libs
-numpy>=1.21.0,<1.26.0
-
-# Utilities
+# Utilities and File Handling
 tqdm>=4.62.0
+pathlib2>=2.3.6
+
+# Optional: For SentencePiece support (if model files are available)
+sentencepiece>=0.1.97
+
+# System utilities
 psutil>=5.8.0
